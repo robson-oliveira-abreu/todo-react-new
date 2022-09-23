@@ -1,0 +1,15 @@
+.textInput {
+    width: 638px;
+    height: 54px;
+    margin-right: 8px;
+
+    padding: 16px;
+    border: 0px;
+    border-radius: 8px;
+    outline: 0px;
+
+    background-color: var(--gray-500);
+    color: var(--gray-300);
+    font-family: 'Inter';
+    font-size: 16px;
+}

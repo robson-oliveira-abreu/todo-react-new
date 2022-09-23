@@ -1,0 +1,19 @@
+.createBtn {
+    display: flex;
+    width: 90px;
+    height: 52px;
+    justify-content: center;
+    align-items: center;
+    border-width: 0px ;
+    border-radius: 8px;
+
+    background-color: var(--blue-dark);
+    color: var(--gray-100);
+}
+
+.text {
+    font-size: 14px;
+    font-family: 'Inter';
+    
+    margin-right: 8px;
+}
