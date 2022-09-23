@@ -2,9 +2,13 @@ import { PlusCircle } from 'phosphor-react'
 
 import './styles.css'
 
-export function CreateButton() {
+interface Props {
+    newTask: () => void;
+}
+
+export function CreateButton({ newTask }: Props) {
     return (
-        <button className="createBtn">
+        <button className="createBtn" onClick={newTask}>
             <p className='text'>
                 Criar
             </p>
